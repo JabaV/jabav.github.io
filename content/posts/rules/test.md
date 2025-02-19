@@ -20,6 +20,7 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: false
 UseHugoToc: true
+disableScrollToTop: false
 ---
 
 ### Чем можно заняться:
@@ -86,8 +87,6 @@ UseHugoToc: true
 - **Боевая часть**
 - В боевой части используются способности персонажа и его числовые характеристики.
 
-[В оглавление](#навигатор)
-
 ---
 
 ### Бои
@@ -108,8 +107,6 @@ UseHugoToc: true
 
 Битва завершается, когда одна из сторон уничтожена.
 ![Пример начала боя и первого раунда в нём](https://sun9-25.userapi.com/impg/62fFFTDtna9m3o71qA4rJG6lvuQJkz_wRyDVEw/BXYpHKY6hW8.jpg?size=386x302&quality=96&sign=a34b5f342666f50f66a1cb38c1cfbd94&type=album "Пример начала боя и первого раунда в нём")
-
-[В оглавление](#навигатор)
 
 ---
 
@@ -141,8 +138,6 @@ UseHugoToc: true
     В 90% случаев такие описания игнорируются из-за несоответствия действительности.
 
 Примеры постов. Первый пост за рейдоделом
-
-[В оглавление](#навигатор)
 
 ### Пробные персонажи
 
@@ -187,7 +182,7 @@ UseHugoToc: true
 
 Верхняя часть карточки персонажа. Самая важная.
 
-[В оглавление](#навигатор)
+
 
 ### О количестве способностей
 
@@ -221,11 +216,7 @@ UseHugoToc: true
 
 - Участвуете в сессии с предметами на персонаже — рейдоделу отправляете карточку персонажа вместе с ними.
 
-<img alt="Пример карточки предмета" src="https://sun9-64.userapi.com/impg/eZol6ctcYaqEUeLwsAUqtURlLvpHseK0C7P08w/aDAq0o9yOTQ.jpg?size=546x500&quality=96&sign=b766476fb939027b9f15b2bdcd7fce98&type=album" />
-
-Пример карточки предмета
-
-[В оглавление](#навигатор)
+![Пример карточки предмета](https://sun9-64.userapi.com/impg/eZol6ctcYaqEUeLwsAUqtURlLvpHseK0C7P08w/aDAq0o9yOTQ.jpg?size=546x500&quality=96&sign=b766476fb939027b9f15b2bdcd7fce98&type=album#center "Пример карточки предмета")
 
 ### Ранги
 
@@ -237,7 +228,7 @@ UseHugoToc: true
 
 - Подробнее о рангах написали в специальной статье
 
-[В оглавление](#навигатор)
+
 
 ### Магазины
 
@@ -249,11 +240,7 @@ UseHugoToc: true
 
 > Его можно вызвать в чате командой магазин лавка
 
-<img alt="NPC-Магазин для покупки ингредиентов" src="https://sun9-6.userapi.com/impg/P2MOXR--K_4TAHIdN2gKOFDYcdMQLnkR0MLxAg/K65_hjTwfNU.jpg?size=635x542&quality=96&sign=9fb612db82db8eb0791a3ff4d4b8df92&type=album" />
-
-NPC-Магазин для покупки ингредиентов
-
-[В оглавление](#навигатор)
+![NPC-Магазин для покупки ингредиентов](https://sun9-6.userapi.com/impg/P2MOXR--K_4TAHIdN2gKOFDYcdMQLnkR0MLxAg/K65_hjTwfNU.jpg?size=635x542&quality=96&sign=9fb612db82db8eb0791a3ff4d4b8df92&type=album "NPC-Магазин для покупки ингредиентов")
 
 ### Зелья
 
@@ -263,11 +250,7 @@ NPC-Магазин для покупки ингредиентов
 
 Можно самим варить зелья из ингредиентов, получаемых во время игровых сессий, с помощью алхимических столов и алхимического набора.
 
-<img alt="Пример зелья, сваренного игроком" src="https://sun9-59.userapi.com/impg/M0oXKcHUlpMbnnN5QuPj2LnvcTp0fKgSrL7Nlg/9D1qJ4ZiA_w.jpg?size=434x422&quality=96&sign=0b65cb3be02c2769da1fda548fb95e1e&type=album" />
-
-Пример зелья, сваренного игроком
-
-[В оглавление](#навигатор)
+![Пример зелья, сваренного игроком](https://sun9-59.userapi.com/impg/M0oXKcHUlpMbnnN5QuPj2LnvcTp0fKgSrL7Nlg/9D1qJ4ZiA_w.jpg?size=434x422&quality=96&sign=0b65cb3be02c2769da1fda548fb95e1e&type=album "Пример зелья, сваренного игроком")
 
 ## Часть для познавших
 
@@ -293,9 +276,8 @@ NPC-Магазин для покупки ингредиентов
 
 [Вы самостоятельно придумываете способности для своего персонажа]
 
-<img alt="Пример персонажа" src="https://sun9-23.userapi.com/impg/-qWBvmfhbYSGoIy9W-e0qN1389MUqeZNaDkITg/fqkpOsWoes4.jpg?size=567x971&quality=96&sign=a8b5cb6c7028bd49b4d0659bab12bf73&type=album" />
+![Пример персонажа](https://sun9-23.userapi.com/impg/-qWBvmfhbYSGoIy9W-e0qN1389MUqeZNaDkITg/fqkpOsWoes4.jpg?size=567x971&quality=96&sign=a8b5cb6c7028bd49b4d0659bab12bf73&type=album "Пример персонажа")
 
-Пример персонажа
 
 ### Бои
 
@@ -309,8 +291,6 @@ NPC-Магазин для покупки ингредиентов
 
 <img alt="Пример боя." src="https://sun9-25.userapi.com/impg/62fFFTDtna9m3o71qA4rJG6lvuQJkz_wRyDVEw/BXYpHKY6hW8.jpg?size=386x302&quality=96&sign=a34b5f342666f50f66a1cb38c1cfbd94&type=album" />
 
-Пример боя.
-
 ### Ранги
 
 У каждого вашего персонажа имеется собственный ранг, который определяет его возможности.<br/>Более высокий ранг позволяет носить больше предметов, увеличивает максимальную редкость этих предметов и предоставляет дополнительные преимущества.
@@ -323,4 +303,3 @@ NPC-Магазин для покупки ингредиентов
 
 Если остались вопросы — идём сюда
 
-[В оглавление](#навигатор)
