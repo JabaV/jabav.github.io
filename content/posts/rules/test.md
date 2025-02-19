@@ -216,7 +216,7 @@ disableScrollToTop: false
 
 - Участвуете в сессии с предметами на персонаже — рейдоделу отправляете карточку персонажа вместе с ними.
 
-![Пример карточки предмета](https://sun9-64.userapi.com/impg/eZol6ctcYaqEUeLwsAUqtURlLvpHseK0C7P08w/aDAq0o9yOTQ.jpg?size=546x500&quality=96&sign=b766476fb939027b9f15b2bdcd7fce98&type=album#center "Пример карточки предмета")
+![Пример карточки предмета](https://sun9-64.userapi.com/impg/eZol6ctcYaqEUeLwsAUqtURlLvpHseK0C7P08w/aDAq0o9yOTQ.jpg?size=546x500&quality=96&sign=b766476fb939027b9f15b2bdcd7fce98&type=album "Пример карточки предмета")
 
 ### Ранги
 
