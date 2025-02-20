@@ -6,7 +6,7 @@ weight: 1
 author: ["JabaV", "Cameraman"] # multiple authors
 showToc: true
 TocOpen: false
-draft: 
+draft: true
 hidemeta: false
 comments: false
 description: ""

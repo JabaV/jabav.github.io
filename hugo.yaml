@@ -5,6 +5,7 @@ pagination:
   pagerSize: 5
   path: page
 theme: PaperMod
+defaultContentLanguage: ru
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -23,10 +24,9 @@ params:
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: [ "<link or path of image for opengraph, twitter-cards>" ]
-  DateFormat: "January 2, 2006"
+  DateFormat: "2 January, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -34,14 +34,45 @@ params:
   ShowCodeCopyButtons: false
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: true
+  UseHugoToc: false
+  disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
   hidemeta: false
   hideSummary: false
   showtoc: true
   tocopen: false
+
+  languages:
+  ru:
+    languageName: ":ru:"
+    weight: 1
+    taxonomies:
+      category: Категория
+      tag: Теги
+      series: Серия
+    menu:
+      main:
+        - name: Архивы
+          url: archives
+          weight: 5
+        - name: Поиск
+          url: search/
+          weight: 10
+        - name: Вики
+          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+        - identifier: categories
+          name: Категории
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: Теги
+          url: /tags/
+          weight: 20
+        - identifier: example
+          name: ExampleSite
+          url: https://example.org
+          weight: 30
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -78,28 +109,20 @@ params:
     Content: Галенкамикооов
 
   #  socialIcons:
-  #  - name: x
-  #    url: "https://x.com/"
-  #  - name: stackoverflow
+  #  - name: vk
+  #    url: "https://vk.com/topbossfights"
+  #  - name: telegram
   #    url: "https://stackoverflow.com"
-  #  - name: github
-  #    url: "https://github.com/"
-  #  analytics:
-  #    google:
-  #      SiteVerificationTag: "XYZabc"
-  #    bing:
-  #      SiteVerificationTag: "XYZabc"
-  #    yandex:
-  #      SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
+    hiddenInSingle: true # hide on single page
+    responsiveImages: true
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/JabaV/jabav.github.io/blob/main/content"
+    Text: "Редактировать" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -113,6 +136,7 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: [ "title", "permalink", "summary", "content" ]
+
 menu:
   main:
   - identifier: categories
@@ -124,9 +148,10 @@ menu:
     url: /tags/
     weight: 20
   - identifier: example
-    name: Мы в ТГ
+    name: amongus
     url: https://example.org
     weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -137,3 +162,11 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+  goldmark:
+    parser:
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: false
+      attribute:
+        block: true
+        title: true

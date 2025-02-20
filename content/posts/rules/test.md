@@ -3,26 +3,27 @@ title: 'Вводный Курс'
 date: '2023-03-21'
 weight: 1
 # aliases: ["/first"]
-author: ["JabaV", "Cameraman"] # multiple authors
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-comments: false
+author: ["JabaV", "Cameraman"] # Авторы статьи.
+showToc: true #  показывать Навигатор на страницу
+TocOpen: true # развернуть Навигатор по умолчанию
+draft: false #
+hidemeta: false # полностью убрать метаданные
+comments: false # включает комментарии, если провайдер комментариев настроен
 description: "Вводный курс для дурачков"
 disableHLJS: true # to disable highlightjs
-disableShare: true
-hideSummary: true
-searchHidden: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
+disableShare: true # убирает гиперссылки шейринга с конца страницы
+hideSummary: true # скрывает текст с превью
+searchHidden: true # скрытие строки поиска
+ShowReadingTime: true # время чтения в метаданных
+ShowBreadCrumbs: false # навигационная цепочка
+ShowPostNavLinks: true # хз что это
+ShowWordCount: true # количество слов в метаданных
 ShowRssButtonInSectionTermList: false
-UseHugoToc: true
+UseHugoToc: false # юзать Hugo Навигатор
 disableScrollToTop: false
+hideFooter: true # прячет ту мелкую надись с авторскими правами, годом и ссылками на Hugo и PaperMod
 cover:
-  image: https://sun9-30.userapi.com/s/v1/ig2/jw-Wty_B04duSXIuqmQZu_g6MmnRCHr2AHFJs_QYD9h2ctLxD2Ye4KACnIV1R6ZXzbjwL4Bzby1T8WEsvN5Wa9xb.jpg?quality=95&as=32x18,48x27,72x40,108x61,160x90,240x135,360x202,480x270,540x304,640x360,720x405,1080x607,1280x720,1440x810,1920x1080&from=bu&u=JHeYtKD1LXehh2CD_53cOqWA03vCYN_pBKzhEztVgfk&cs=604x340
+  image: images/jw-Wty_B04duSXIuqmQZu_g6MmnRCHr2AHFJs_QYD9h2ctLxD2Ye4KACnIV1R6ZXzbjwL4Bzby1T8WEsvN5Wa9xb.webp
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
   alt: "<alt text>"
@@ -113,8 +114,10 @@ cover:
 Каждая активная способность имеет кулдаун (кд) — время перезарядки в раундах, в течение которого способность нельзя повторно использовать.<br/>В случае с длительными эффектами, способность получит кулдаун только после окончания действия эффекта.
 
 Битва завершается, когда одна из сторон уничтожена.
-![Пример начала боя и первого раунда в нём](https://sun9-25.userapi.com/impg/62fFFTDtna9m3o71qA4rJG6lvuQJkz_wRyDVEw/BXYpHKY6hW8.jpg?size=386x302&quality=96&sign=a34b5f342666f50f66a1cb38c1cfbd94&type=album "Пример начала боя и первого раунда в нём")
 
+![Пример начала боя и первого раунда в нём](https://sun9-25.userapi.com/impg/62fFFTDtna9m3o71qA4rJG6lvuQJkz_wRyDVEw/BXYpHKY6hW8.jpg?size=386x302&quality=96&sign=a34b5f342666f50f66a1cb38c1cfbd94&type=album#center)
+*Пример начала боя и первого раунда в нём*
+{.center .smalltext}
 ---
 
 ### Отыгрыш (РП)
@@ -223,7 +226,9 @@ cover:
 
 - Участвуете в сессии с предметами на персонаже — рейдоделу отправляете карточку персонажа вместе с ними.
 
-![Пример карточки предмета](https://sun9-64.userapi.com/impg/eZol6ctcYaqEUeLwsAUqtURlLvpHseK0C7P08w/aDAq0o9yOTQ.jpg?size=546x500&quality=96&sign=b766476fb939027b9f15b2bdcd7fce98&type=album "Пример карточки предмета")
+![Пример карточки предмета](https://sun9-64.userapi.com/impg/eZol6ctcYaqEUeLwsAUqtURlLvpHseK0C7P08w/aDAq0o9yOTQ.jpg?size=546x500&quality=96&sign=b766476fb939027b9f15b2bdcd7fce98&type=album#center)
+*Пример карточки предмета*
+{.center .smalltext}
 
 ### Ранги
 
@@ -247,7 +252,9 @@ cover:
 
 > Его можно вызвать в чате командой магазин лавка
 
-![NPC-Магазин для покупки ингредиентов](https://sun9-6.userapi.com/impg/P2MOXR--K_4TAHIdN2gKOFDYcdMQLnkR0MLxAg/K65_hjTwfNU.jpg?size=635x542&quality=96&sign=9fb612db82db8eb0791a3ff4d4b8df92&type=album "NPC-Магазин для покупки ингредиентов")
+![NPC-Магазин для покупки ингредиентов](https://sun9-6.userapi.com/impg/P2MOXR--K_4TAHIdN2gKOFDYcdMQLnkR0MLxAg/K65_hjTwfNU.jpg?size=635x542&quality=96&sign=9fb612db82db8eb0791a3ff4d4b8df92&type=album#center)
+*NPC-Магазин для покупки ингредиентов*
+{.center .smalltext}
 
 ### Зелья
 
@@ -257,7 +264,9 @@ cover:
 
 Можно самим варить зелья из ингредиентов, получаемых во время игровых сессий, с помощью алхимических столов и алхимического набора.
 
-![Пример зелья, сваренного игроком](https://sun9-59.userapi.com/impg/M0oXKcHUlpMbnnN5QuPj2LnvcTp0fKgSrL7Nlg/9D1qJ4ZiA_w.jpg?size=434x422&quality=96&sign=0b65cb3be02c2769da1fda548fb95e1e&type=album "Пример зелья, сваренного игроком")
+![Пример зелья, сваренного игроком](https://sun9-59.userapi.com/impg/M0oXKcHUlpMbnnN5QuPj2LnvcTp0fKgSrL7Nlg/9D1qJ4ZiA_w.jpg?size=434x422&quality=96&sign=0b65cb3be02c2769da1fda548fb95e1e&type=album#center)
+*Пример зелья, сваренного игроком*
+{.center .smalltext}
 
 ## Часть для познавших
 
