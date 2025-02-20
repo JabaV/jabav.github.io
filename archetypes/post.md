@@ -1,6 +1,6 @@
 ---
-title: 'Null'
-date: '2000-01-01'
+title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+date: '{{ .Date }}'
 weight: 1
 # aliases: ["/first"]
 author: ["JabaV", "Cameraman"] # multiple authors
