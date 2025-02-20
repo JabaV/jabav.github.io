@@ -1,4 +1,4 @@
-baseURL: "https://jabav.github.io/"
+baseURL: "https://tbdocs.netlify.app/"
 title: T&B Documentation
 pagination:
   disableAliases: false
