@@ -8,7 +8,7 @@ theme: PaperMod
 defaultContentLanguage: ru
 
 enableRobotsTXT: true
-buildDrafts: true
+buildDrafts: false
 buildFuture: false
 buildExpired: false
 
@@ -42,6 +42,7 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
+  swiper: true
 
   languages:
   ru:
@@ -163,6 +164,10 @@ markup:
     # lineNos: true
     # style: monokai
   goldmark:
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
     parser:
       autoHeadingID: true
       autoHeadingIDType: github
