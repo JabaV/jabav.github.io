@@ -8,7 +8,7 @@ theme: PaperMod
 defaultContentLanguage: ru
 
 enableRobotsTXT: true
-buildDrafts: false
+buildDrafts: true
 buildFuture: false
 buildExpired: false
 
