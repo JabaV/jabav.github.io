@@ -22,7 +22,7 @@ ShowRssButtonInSectionTermList: false
 UseHugoToc: true
 disableScrollToTop: false
 cover:
-  image: https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+  image: https://sun9-30.userapi.com/s/v1/ig2/jw-Wty_B04duSXIuqmQZu_g6MmnRCHr2AHFJs_QYD9h2ctLxD2Ye4KACnIV1R6ZXzbjwL4Bzby1T8WEsvN5Wa9xb.jpg?quality=95&as=32x18,48x27,72x40,108x61,160x90,240x135,360x202,480x270,540x304,640x360,720x405,1080x607,1280x720,1440x810,1920x1080&from=bu&u=JHeYtKD1LXehh2CD_53cOqWA03vCYN_pBKzhEztVgfk&cs=604x340
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
   alt: "<alt text>"
