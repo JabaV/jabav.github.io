@@ -1,78 +1,84 @@
-/* Основные стили слайдера */
-.slide-content {
-    position: relative;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .swiper-slide img {
-    width: 100%;
-    height: 95%;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-  
-  .slide-caption {
-    height: 10%;
-    padding: 1rem;
-    text-align: center;
-    background: rgba(0,0,0,0);
-    color: #6d7885;
-    font-size: 16px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    margin-top: -20px;
-  }
-  
-.swiper-container {
-    position: relative;
-    width: 100%;
-    margin: 2rem 0;
-  }
-  
-  .swiper {
-    width: 100%;
-    height: 600px;
-  }
-  
-  .custom-pagination {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 10;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 8px 15px;
-    border-radius: 15px;
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    backdrop-filter: blur(2px);
-    pointer-events: none;
-  }
-  
-  /* Стили для изображений */
-  .slide-content img {
-    width: 100%;
-    height: 90%;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-  
-  /* Адаптивность */
-  @media (max-width: 768px) {
-    .swiper {
-      height: 500px;
-    }
-    
-    .custom-pagination {
-      top: 10px;
-      right: 10px;
-      padding: 5px 10px;
-      font-size: 12px;
-    }
-  }
+.splide__arrow {
+  background: none !important;
+  border: none !important;
+  width: 20% !important; /* Ширина стрелок */
+  height: 100% !important; /* Высота стрелок */
+  top: 45% !important;
+  z-index: 10; /* Стрелки должны быть поверх слайдов */
+  position: absolute !important;
+  overflow: hidden !important;
+  opacity: 0; /* Стрелки скрыты по умолчанию */
+  visibility: hidden; /* Стрелки невидимы по умолчанию */
+  transition: opacity 0.3s ease, visibility 0s 0.3s ease !important; /* Плавно появляющиеся стрелки */
+}
+
+/* Стрелка на левом краю */
+.splide__arrow--prev {
+  left: -7% !important;
+}
+
+/* Стрелка на правом краю */
+.splide__arrow--next {
+  right: -7% !important;
+}
+
+/* Псевдоэлемент для создания градиента */
+.splide__arrow::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background: none; /* Убираем любой фон по умолчанию */
+}
+
+/* Градиент для левой стрелки */
+.splide__arrow--prev::before {
+  background: radial-gradient(
+    ellipse farthest-corner,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 60% /* Градиент плавно исчезает к центру */
+  );
+  left: 0;
+}
+
+/* Градиент для правой стрелки */
+.splide__arrow--next::before {
+  background: radial-gradient(
+    ellipse farthest-corner,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 60% /* Градиент плавно исчезает к центру */
+  );
+  right: 0;
+}
+
+/* Показываем стрелки при наведении на область стрелки */
+.splide__arrow:hover {
+  opacity: 1; /* Стрелки становятся видимыми */
+  visibility: visible; /* Стрелки становятся видимыми */
+  transition: opacity 0.3s ease, visibility 0s 0s ease; /* Плавное появление */
+}
+
+/* Показываем градиент при наведении на стрелку */
+.splide__arrow:hover::before {
+  opacity: 1; /* Показываем градиент при наведении */
+}
+
+.splide {
+  position: relative;
+  overflow: hidden;
+}
+
+.splide__track {
+  position: relative;
+}
+
+.splide__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
