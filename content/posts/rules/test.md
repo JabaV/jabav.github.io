@@ -24,9 +24,7 @@ disableScrollToTop: false
 hideFooter: true # прячет задницу страницы
 swiper: true
 cover:
-  image: images/jw-Wty_B04duSXIuqmQZu_g6MmnRCHr2AHFJs_QYD9h2ctLxD2Ye4KACnIV1R6ZXzbjwL4Bzby1T8WEsvN5Wa9xb.webp
-  # can also paste direct link from external site
-  # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+  image: images/entrypost1.png
   alt: "<alt text>"
   caption: "<text>"
   relative: false # To use relative path for cover image, used in hugo Page-bundles
