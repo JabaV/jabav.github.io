@@ -61,10 +61,8 @@ body {
 
   .main {
     background: var(--theme);
-    position: relative;
     z-index: 1;
     border-radius: 18px;
-    margin: 20px;
     border: 1px solid var(--border);
 }
 
