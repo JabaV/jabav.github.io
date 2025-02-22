@@ -84,3 +84,22 @@
   margin: 0;
   list-style: none;
 }
+
+.splide__pagination {
+  top: 83.7%;
+  z-index: 0;
+}
+
+.splide__pagination__page {
+  background: var(--primary) !important;
+  border: 0;
+  border-radius: 50%;
+  display: inline-block;
+  height: 8px;
+  margin: 3px;
+  opacity: .7;
+  padding: 0;
+  position: relative;
+  transition: transform .2s ease !important;
+  width: 8px;
+}
