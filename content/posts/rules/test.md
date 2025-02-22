@@ -187,31 +187,43 @@ _Делятся на:_
 
 Доступные для игры классы, их максимально возможные характеристики, количество их способностей и количество стартовых способностей можно узнать в специальной статье. Имейте в виду, что престиж-классы изначально вам недоступны.
 
-<div class="swiper">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="slide-content">
-            <img src="https://sun9-56.userapi.com/impg/g8fxlja87-2CGYEvU00fLwIThwS0WsBc0jwv9w/NN8jIDbDowM.jpg?size=1280x960&quality=95&sign=290d9c26a1ab96f2d5d554f4ac2a5472&type=album"    alt="Image 1">
-            <div class="slide-caption">Примеры постов. Первый пост за рейдоделом</div>
+<section id="image-carousel" class="splide" aria-label="Beautiful Images">
+  <div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide">
+				<img src="https://sun9-56.userapi.com/impg/g8fxlja87-2CGYEvU00fLwIThwS0WsBc0jwv9w/NN8jIDbDowM.jpg?size=1280x960&quality=95&sign=290d9c26a1ab96f2d5d554f4ac2a5472&type=album">
+        <div>
+        <center>
+        <em>
+          Примеры постов. Первый пост за рейдоделом
+          </em>
+          </center>
           </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slide-content">
-            <img src="https://sun9-63.userapi.com/impg/x78YmmKOMgHaO8qVDlYleG9whZMDUEszZlv61Q/UAjBd_6NaoQ.jpg?size=1844x1383&quality=95&sign=e85265069b2126055d44bd66b52fb9a9&type=album"   alt="Image 2">
-            <div class="slide-caption">Игрок отписывает своё действие, задавая вопрос NPC</div>
+			</li>
+			<li class="splide__slide">
+				<img src="https://sun9-63.userapi.com/impg/x78YmmKOMgHaO8qVDlYleG9whZMDUEszZlv61Q/UAjBd_6NaoQ.jpg?size=1844x1383&quality=95&sign=e85265069b2126055d44bd66b52fb9a9&type=album">
+        <div>
+        <center>
+        <em>
+          Игрок отписывает своё действие, задавая вопрос NPC
+          </em>
+          </center>
           </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slide-content">
-            <img src="https://sun9-46.userapi.com/impg/qG955GkWhUrPRfw3xEOGa0WqwvY-chQ7VM562A/TX-AVpc14jQ.jpg?size=1844x1383&quality=95&sign=23baed08d82c3ff7324af8e38c070abd&type=album"   alt="Image 3">
-            <div class="slide-caption">Рейдодел отвечает на вопрос от имени NPC и даёт подсказку для следующих действий</div>
+			</li>
+			<li class="splide__slide">
+				<img src="https://sun9-46.userapi.com/impg/qG955GkWhUrPRfw3xEOGa0WqwvY-chQ7VM562A/TX-AVpc14jQ.jpg?size=1844x1383&quality=95&sign=23baed08d82c3ff7324af8e38c070abd&type=album">
+        <div>
+        <center>
+        <em>
+          Рейдодел отвечает на вопрос от имени NPC и даёт подсказку для следующих действий
+          </em>
+          </center>
           </div>
-        </div>
-    </div>
-    <div class="custom-pagination">
-        <span class="current">1</span> из <span class="total"></span>
-    </div>
-</div>
+			</li>
+		</ul>
+  </div>
+</section>
+
 
 ### О количестве способностей
 

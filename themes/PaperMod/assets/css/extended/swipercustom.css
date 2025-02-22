@@ -1,4 +1,5 @@
 .splide__arrow {
+  display: flex;
   background: none !important;
   border: none !important;
   width: 20% !important; /* Ширина стрелок */
@@ -7,9 +8,12 @@
   z-index: 10; /* Стрелки должны быть поверх слайдов */
   position: absolute !important;
   overflow: hidden !important;
-  opacity: 0; /* Стрелки скрыты по умолчанию */
-  visibility: hidden; /* Стрелки невидимы по умолчанию */
-  transition: opacity 0.3s ease, visibility 0s 0.3s ease !important; /* Плавно появляющиеся стрелки */
+  fill-opacity: 0;
+}
+
+/* Стрелка на правом краю */
+.splide__arrow--next {
+  right: -7% !important;
 }
 
 /* Стрелка на левом краю */
@@ -17,9 +21,11 @@
   left: -7% !important;
 }
 
-/* Стрелка на правом краю */
-.splide__arrow--next {
-  right: -7% !important;
+.splide__arrow svg {
+  z-index: 10;
+  fill: rgba(0, 0, 0, 0);
+  height: 1.2rem !important;
+  width: 1.2rem !important;
 }
 
 /* Псевдоэлемент для создания градиента */
@@ -31,42 +37,38 @@
   width: 100%;
   height: 100%;
   opacity: 0;
+  z-index: 11;
   transition: opacity 0.3s ease;
   background: none; /* Убираем любой фон по умолчанию */
 }
-
 /* Градиент для левой стрелки */
 .splide__arrow--prev::before {
   background: radial-gradient(
     ellipse farthest-corner,
     rgba(255, 255, 255, 0.2) 0%,
-    rgba(255, 255, 255, 0) 60% /* Градиент плавно исчезает к центру */
+    rgba(255, 255, 255, 0) 70% /* Градиент плавно исчезает к центру */
   );
-  left: 0;
+  left: -11%;
 }
-
-/* Градиент для правой стрелки */
+ /* Градиент для правой стрелки */
 .splide__arrow--next::before {
   background: radial-gradient(
     ellipse farthest-corner,
     rgba(255, 255, 255, 0.2) 0%,
-    rgba(255, 255, 255, 0) 60% /* Градиент плавно исчезает к центру */
+    rgba(255, 255, 255, 0) 70% /* Градиент плавно исчезает к центру */
   );
-  right: 0;
+  left: 11%;
 }
-
-/* Показываем стрелки при наведении на область стрелки */
-.splide__arrow:hover {
-  opacity: 1; /* Стрелки становятся видимыми */
-  visibility: visible; /* Стрелки становятся видимыми */
-  transition: opacity 0.3s ease, visibility 0s 0s ease; /* Плавное появление */
-}
-
 /* Показываем градиент при наведении на стрелку */
 .splide__arrow:hover::before {
   opacity: 1; /* Показываем градиент при наведении */
 }
 
+/* Показываем стрелки при наведении на область стрелки */
+.splide__arrow:hover {
+  fill-opacity: 1; /* Стрелки становятся видимыми */
+  transition: fill-opacity 0.4s ease; /* Плавное появление */
+} *
 .splide {
   position: relative;
   overflow: hidden;
