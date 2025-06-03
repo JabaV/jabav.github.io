@@ -53,7 +53,96 @@
     {
       "title": "content",
       "path": "[[workspace]]/content"
+    },
+    {
+      "path": "[[workspace]]/themes/PaperMod/.github"
     }
   ],
-  "frontMatter.git.enabled": true
+  "frontMatter.git.enabled": true,
+  "frontMatter.content.snippets": {
+    "carousel": {
+      "description": "Создание карусели изображений",
+      "body": [
+        "<section id=\"image-carousel\" class=\"splide\" aria-label=\"\">",
+        "  <div class=\"splide__track\">",
+        "\t\t<ul class=\"splide__list\">",
+        "\t\t\t<li class=\"splide__slide\">",
+        "\t\t\t\t<img src=\"/images/\">",
+        "        <div>",
+        "        <center>",
+        "        <em>",
+        "          Text",
+        "          </em>",
+        "          </center>",
+        "          </div>",
+        "\t\t\t</li>",
+        "\t\t\t<li class=\"splide__slide\">",
+        "\t\t\t\t<img src=\"/images/\">",
+        "        <div>",
+        "        <center>",
+        "        <em>",
+        "          text",
+        "          </em>",
+        "          </center>",
+        "          </div>",
+        "\t\t</ul>",
+        "  </div>",
+        "</section>"
+      ],
+      "fields": []
+    },
+    "IMT": {
+      "description": "Изображение с сноской внизу",
+      "openingTags": "((",
+      "closingTags": "))",
+      "body": [
+        "![((text))](/images/((&url))#center)",
+        "*((rtext))*",
+        "{.center .smalltext}"
+      ],
+      "fields": [
+        {
+          "name": "text",
+          "title": "text",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "url",
+          "title": "url",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "rtext",
+          "title": "rtext",
+          "type": "string",
+          "single": true,
+          "default": ""
+        }
+      ]
+    },
+    "Цветной текст": {
+      "description": "красит текст",
+      "body": "<p style=\"color:[[colour]];\">[[selection]]</p>",
+      "fields": [
+        {
+          "name": "colour",
+          "title": "colour",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "selection",
+          "title": "selection",
+          "type": "string",
+          "single": true,
+          "default": "FM_SELECTED_TEXT"
+        }
+      ]
+    }
+  }
 }
