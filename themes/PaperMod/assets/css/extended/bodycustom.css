@@ -3,7 +3,7 @@ body {
     position: relative !important;
 }
 
-.top-background {
+/* .top-background {
   position: absolute;
   top: 0;
   left: 0;
@@ -21,7 +21,7 @@ body {
         position: absolute;
         background: linear-gradient(to bottom, transparent, var(--theme));
       }
-    }
+    } */
 
     .header {
         position: relative; /* Добавляем позиционирование */
