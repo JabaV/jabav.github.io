@@ -69,3 +69,8 @@ body {
 .post-entry {
     border: 2px solid var(--border);
 }
+
+.entry-cover img {
+  width: 50% !important;
+  margin: auto;
+}

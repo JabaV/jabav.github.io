@@ -2,9 +2,21 @@
 {{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
 {{- /* Footer custom content area end */ -}}
 
+{{- if (.Param "swiper") -}}
 <script>
-  document.addEventListener( 'DOMContentLoaded', function() {
-    var splide = new Splide( '.splide');
-    splide.mount();
-  } );
+document.addEventListener('DOMContentLoaded', function() {
+  // Splide initialization
+  try {
+    if (typeof Splide !== 'undefined') {
+      const splideEls = document.querySelectorAll('.splide');
+      if (splideEls.length) {
+        new Splide('.splide').mount();
+        console.log(`Mounted ${splideEls.length} Splide sliders`);
+      }
+    }
+  } catch (splideError) {
+    console.error('Splide initialization error:', splideError);
+  }
+});
 </script>
+{{- end -}}

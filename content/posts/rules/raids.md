@@ -23,6 +23,7 @@ UseHugoToc: false # юзать Hugo Навигатор
 disableScrollToTop: false
 hideFooter: true # прячет задницу страницы
 swiper: false
+editPost: false
 ---
 ### Рейд
 

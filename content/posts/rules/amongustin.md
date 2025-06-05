@@ -21,23 +21,6 @@ ShowPostNavLinks: false
 ShowWordCount: true
 ShowRssButtonInSectionTermList: false
 UseHugoToc: true
+editPost: false
 ---
 
-<section id="image-carousel" class="splide" aria-label="Beautiful Images">
-  <div class="splide__track">
-		<ul class="splide__list">
-			<li class="splide__slide">
-				<img src="/images/1.jpg" alt="">
-        <div>
-          Amongussssss
-          </div>
-			</li>
-			<li class="splide__slide">
-				<img src="/images/2.jpg" alt="">
-			</li>
-			<li class="splide__slide">
-				<img src="/images/3.jpg" alt="">
-			</li>
-		</ul>
-  </div>
-</section>

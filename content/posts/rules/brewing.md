@@ -23,6 +23,7 @@ UseHugoToc: false # юзать Hugo Навигатор
 disableScrollToTop: false
 hideFooter: true # прячет задницу страницы
 swiper: false
+editPost: false
 ---
 ### Ингредиенты
 
@@ -66,11 +67,9 @@ swiper: false
 
 Также на результат вашей работы влияет стабильность установки — при большом дисбалансе она может выдавать совсем не те результаты, которых вы ожидали. Повысить стабильность можно апгрейдами или добавляя катализаторы.
 
-<!-- FM:Snippet:Start data:{"id":"IMT","fields":[{"name":"text","value":"Зельевар крутой"},{"name":"(&url","value":"/images/br1.jpg"},{"name":"rtext","value":"Добавьте описание"}]} -->
-![Зельевар крутой](/images/br1.jpg#center)
+![Зельевар крутой](/images/br1.webp#center)
 *Добавьте описание*
 {.center .smalltext}
-<!-- FM:Snippet:End -->
 
 ## Список ингредиентов и их производных:
 

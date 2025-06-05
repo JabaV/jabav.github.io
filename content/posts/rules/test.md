@@ -23,6 +23,7 @@ UseHugoToc: false # юзать Hugo Навигатор
 disableScrollToTop: false
 hideFooter: true # прячет задницу страницы
 swiper: true
+editPost: false
 cover:
   image: images/entrypost1.png
   alt: "<alt text>"
@@ -116,7 +117,7 @@ cover:
 **Битва завершается, когда одна из сторон уничтожена.**
 
 
-![Пример начала боя и первого раунда в нём](/images/hod.jpg#center)
+![Пример начала боя и первого раунда в нём](/images/hod.webp#center)
 *Пример начала боя и первого раунда в нём*
 {.center .smalltext}
 ---
@@ -151,7 +152,7 @@ _Условно делится на:_
   <div class="splide__track">
 		<ul class="splide__list">
 			<li class="splide__slide">
-				<img src="/images/1.jpg">
+				<img src="/images/1.webp">
         <div>
         <center>
         <em>
@@ -161,7 +162,7 @@ _Условно делится на:_
           </div>
 			</li>
 			<li class="splide__slide">
-				<img src="/images/2.jpg">
+				<img src="/images/2.webp">
         <div>
         <center>
         <em>
@@ -171,7 +172,7 @@ _Условно делится на:_
           </div>
 			</li>
 			<li class="splide__slide">
-				<img src="/images/3.jpg">
+				<img src="/images/3.webp">
         <div>
         <center>
         <em>
@@ -222,7 +223,7 @@ _Делятся на:_
 
 Доступные для игры классы, их максимально возможные характеристики, количество их способностей и количество стартовых способностей можно узнать в специальной статье. Имейте в виду, что престиж-классы изначально вам недоступны.
 
-![Пример персонажа](/images/Character.jpg#center)
+![Пример персонажа](/images/Character.webp#center)
 *Пример персонажа*
 {.center .smalltext}
 
@@ -257,7 +258,7 @@ _Делятся на:_
 - Участвуете в сессии с предметами на персонаже — рейдоделу отправляете карточку персонажа **вместе с ними**.
 
 
-![Пример карточки предмета](/images/itemstatic.jpg#center)
+![Пример карточки предмета](/images/itemstatic.webp#center)
 *Пример карточки предмета*
 {.center .smalltext}
 
@@ -284,7 +285,7 @@ _Делятся на:_
 > Его можно вызвать в чате командой `магазин лавка`
 
 
-![NPC-Магазин для покупки ингредиентов](/images/NPSShop.jpg#center)
+![NPC-Магазин для покупки ингредиентов](/images/NPSShop.webp#center)
 *NPC-Магазин для покупки ингредиентов*
 {.center .smalltext}
 
@@ -297,6 +298,6 @@ _Делятся на:_
 Можно самим варить зелья из ингредиентов, получаемых во время игровых сессий, с помощью алхимических столов и алхимического набора.
 
 
-![Пример зелья, сваренного игроком](/images/PotionStatic.jpg#center)
+![Пример зелья, сваренного игроком](/images/PotionStatic.webp#center)
 *Пример зелья, сваренного игроком*
 {.center .smalltext}

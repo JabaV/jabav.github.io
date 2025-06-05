@@ -23,6 +23,7 @@ UseHugoToc: false # юзать Hugo Навигатор
 disableScrollToTop: false
 hideFooter: true # прячет задницу страницы
 swiper: false
+editPost: false
 ---
 
 > Тут вы сможете купить много разных вещей, продать Ресурсы и не только. Повсюду стоит шум, споры, торги. Каждый торговец зазывает к себе.
