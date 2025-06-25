@@ -59,12 +59,15 @@ editPost: false
 Обычное - 3  
 
 Параметры зелья как дропа с рейда:
+<div style="text-align:center">
 
-| **Редкость**                                   | **Макс. бафф/дебафф**                      | **Число особых эффектов**          | **Макс. лечение**                     |                                                                   **Воскрешение** |
-|:-----------------------------------------------|--------------------------------------------|------------------------------------|---------------------------------------|----------------------------------------------------------------------------------:|
-| <p style="color:#8d5d67;">**Обычное**</p>      | <p style="text-align:center">250</p>       | <p style="text-align:center">0</p> | <p style="text-align:center">1000</p> |                                                <p style="text-align:center">ₓ</p> |
-| <p style="color:#097be4;">**Редкое**</p>       | <p style="text-align:center">500</p>       | <p style="text-align:center">1</p> | <p style="text-align:center">1500</p> |                                                <p style="text-align:center">ₓ</p> |
-| <p style="color:#303bab;">**Очень редкое**</p> | <p style="text-align:center">1000</p>      | <p style="text-align:center">1</p> | <p style="text-align:center">2500</p> |                                 <p style="text-align:center">50% хп, без щита</p> |
-| <p style="color:#b200bc;">**Эпическое**</p>    | <p style="text-align:center">3000/x2</p>   | <p style="text-align:center">2</p> | <p style="text-align:center">5000</p> |                                <p style="text-align:center">100% хп, без щита</p> |
-| <p style="color:#1de9b6;">**Мифическое**</p>   | <p style="text-align:center">5000/x2.5</p> | <p style="text-align:center">2</p> | <p style="text-align:center">7000</p> |                                             <p style="text-align:center">Фулл</p> |
-| <p style="color:orange;">**Легендарное**</p>   | <p style="text-align:center">7000/x3</p>   | <p style="text-align:center">2</p> | <p style="text-align:center">100%</p> | <p style="text-align:center">Фулл. Возможно повторное применение, но без щита</p> |
+<!--Хуй его знает почему в ласт столбце оформление не наследуется-->
+| **Редкость**                                   | **Макс. бафф/дебафф** | **Число особых эффектов** | **Макс. лечение** |                                                                   **Воскрешение** |
+|:-----------------------------------------------|-----------------------|---------------------------|-------------------|----------------------------------------------------------------------------------:|
+| <p style="color:#8d5d67;">**Обычное**</p>      | 250                   | 0                         | 1000              |                                                <p style="text-align:center">ₓ</p> |
+| <p style="color:#097be4;">**Редкое**</p>       | 500                   | 1                         | 1500              |                                                <p style="text-align:center">ₓ</p> |
+| <p style="color:#303bab;">**Очень редкое**</p> | 1000                  | 1                         | 2500              |                                 <p style="text-align:center">50% хп, без щита</p> |
+| <p style="color:#b200bc;">**Эпическое**</p>    | 3000/x2               | 2                         | 5000              |                                <p style="text-align:center">100% хп, без щита</p> |
+| <p style="color:#1de9b6;">**Мифическое**</p>   | 5000/x2.5             | 2                         | 7000              |                                             <p style="text-align:center">Фулл</p> |
+| <p style="color:orange;">**Легендарное**</p>   | 7000/x3               | 2                         | 100%              | <p style="text-align:center">Фулл. Возможно повторное применение, но без щита</p> |
+</div>
