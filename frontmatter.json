@@ -126,7 +126,7 @@
     },
     "Цветной текст": {
       "description": "красит текст",
-      "body": "<p style=\"color:[[colour]];\">[[selection]]</p>",
+      "body": "<span style=\"color:[[colour]];\">[[selection]]</span>",
       "fields": [
         {
           "name": "colour",
